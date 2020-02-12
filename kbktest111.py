@@ -310,7 +310,7 @@ def word_ocr():
 #音声認識コード
 
 def sound_in():
-	speech_key, service_region = "caa620730aec4943a94b91cc114891f3", "westus"
+	speech_key, service_region = "ここにサブスクリプションキー入力", "ここにエンドポイント入力"
 	speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 	speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config)
 	print("Say something...")
